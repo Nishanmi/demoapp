@@ -6,14 +6,14 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: addressbook
+      app: demopage
   template:
     metadata:
       labels:
-        app: addressbook
+        app: demopage
     spec:
       containers:
         - name: addressbook-container
-          image: suhailasad/addressbook:0.1
+          image: nishant1784/demopage:0.1
           ports:
             - containerPort: 8080
