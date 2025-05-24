@@ -4,7 +4,7 @@ metadata:
   name: customerinformation-nodeport
 spec:
   selector:
-    app: addressbook
+    app: demopage
   type: NodePort
   ports:
     - protocol: TCP
